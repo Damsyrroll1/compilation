@@ -1,14 +1,13 @@
 import javax.swing.*;
-   public class getinpu{
-   public static void main(String[]args){
-   String name,email,favcolor;
-   
-   name= JOptionPane.showInputDialog(null, "What is your name?");
-   email= JOptionPane.showInputDialog(null, "What is your email add?");
-   favcolor= JOptionPane.showInputDialog(null, "What is your fav color?");
-
-   JOptionPane.showMessageDialog(null, "Hello nice to meet you!" +name+" "+email);
-   
-   }
+  
+   public class GUI2 {
+      public static void main(String[]args) 
+       {
+         JOptionPane.showMessageDialog(null, "Name:          Neil Ivan C. Descartin");
+         JOptionPane.showMessageDialog(null, "Age:           18");
+         JOptionPane.showMessageDialog(null, "Copurse & Yr:  BSIT - 1");
+         JOptionPane.showMessageDialog(null, "School:        St. Paul University Surigao");
+         JOptionPane.showMessageDialog(null, "Motto:         Failure is a stepping stone to succes");
+       }
 }
-
+   
