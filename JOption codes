@@ -1,0 +1,14 @@
+import javax.swing.*;
+   public class getinpu{
+   public static void main(String[]args){
+   String name,email,favcolor;
+   
+   name= JOptionPane.showInputDialog(null, "What is your name?");
+   email= JOptionPane.showInputDialog(null, "What is your email add?");
+   favcolor= JOptionPane.showInputDialog(null, "What is your fav color?");
+
+   JOptionPane.showMessageDialog(null, "Hello nice to meet you!" +name+" "+email);
+   
+   }
+}
+
