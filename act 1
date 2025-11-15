@@ -1,0 +1,11 @@
+public class Activity1
+{
+   public static void main(String[]args)
+   {
+   System.out.println(" Name:               Neil Ivan C. Descartin");
+   System.out.println(" Age:                18");
+   System.out.println(" Course & Yr:        BSIT - 1");
+   System.out.println(" School:             St. Paul University Surigao");
+   System.out.println(" Motto:              Failure is a stepping stone to succes");
+   }
+} 
